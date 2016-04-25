@@ -35,6 +35,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button btn5 = (Button) this.findViewById(R.id.button5);
         btn5.setOnClickListener(this);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
+        {
+            if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED)
+            {
+                requestPermissions(new String[]{Manifest.permission.CAMERA}, 100);
+                return;
+            }
+        }
     }
 
     @Override
