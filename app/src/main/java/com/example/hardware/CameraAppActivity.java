@@ -1,4 +1,4 @@
-package com.example.hardware.camera;
+package com.example.hardware;
 
 import android.content.Intent;
 import android.graphics.Bitmap;

@@ -6,12 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.hardware.bluetooth.BluetoothMainActivity;
-import com.example.hardware.camera.CameraAppActivity;
-import com.example.hardware.camera.CameraControlActivity;
-import com.example.hardware.fingerprint.FingerprintActivity;
-import com.example.hardware.wifi.WiFiControlActivity;
-
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {

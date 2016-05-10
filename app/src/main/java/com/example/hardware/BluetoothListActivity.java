@@ -1,4 +1,4 @@
-package com.example.hardware.bluetooth;
+package com.example.hardware;
 
 import android.app.ListActivity;
 import android.bluetooth.BluetoothAdapter;

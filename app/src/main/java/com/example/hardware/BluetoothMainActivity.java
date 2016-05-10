@@ -1,4 +1,4 @@
-package com.example.hardware.bluetooth;
+package com.example.hardware;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -14,8 +14,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.hardware.R;
 
 import java.io.IOException;
 import java.io.InputStream;

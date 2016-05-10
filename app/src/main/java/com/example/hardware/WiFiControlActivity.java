@@ -1,4 +1,4 @@
-package com.example.hardware.wifi;
+package com.example.hardware;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

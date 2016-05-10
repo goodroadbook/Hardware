@@ -23,12 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".camera.CameraAppActivity" />
-        <activity android:name=".camera.CameraControlActivity" />
-        <activity android:name=".wifi.WiFiControlActivity" />
-        <activity android:name=".bluetooth.BluetoothListActivity" />
-        <activity android:name=".bluetooth.BluetoothMainActivity" />
-        <activity android:name=".fingerprint.FingerprintActivity"></activity>
+        <activity android:name=".CameraAppActivity" />
+        <activity android:name=".CameraControlActivity" />
+        <activity android:name=".WiFiControlActivity" />
+        <activity android:name=".BluetoothListActivity" />
+        <activity android:name=".BluetoothMainActivity" />
+        <activity android:name=".FingerprintActivity"></activity>
     </application>
 
 </manifest>
